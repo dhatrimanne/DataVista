@@ -55,7 +55,7 @@ class GeminiClient:
             )
             raise HTTPException(
                 status_code=status.HTTP_502_BAD_GATEWAY,
-                detail=f"Gemini error {response.status_code}: {response.text}",
+                detail="Gemini request failed. Verify GEMINI_API_KEY and GEMINI_MODEL.",
             )
 
         payload = response.json()
