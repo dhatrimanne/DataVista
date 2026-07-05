@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from frontend.utils import api
+from utils import api
 
 
 def unavailable_panel(result: dict) -> None:

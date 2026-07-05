@@ -1,6 +1,6 @@
 import streamlit as st
 
-from frontend.utils import api
+from utils import api
 
 
 def persist_auth(auth_response: dict) -> None:

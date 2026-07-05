@@ -3,7 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
-from frontend.utils import api
+from utils import api
 
 
 def render_recommendations(token: str) -> None:

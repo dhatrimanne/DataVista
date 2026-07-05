@@ -1,18 +1,18 @@
 import streamlit as st
 
-from frontend.components.auth import render_login, render_logout, render_registration
-from frontend.components.ai_chat import render_ai_chat
-from frontend.components.ai_insights import render_ai_insights
-from frontend.components.analysis import render_analysis
-from frontend.components.dashboard import render_metric_grid, render_profile, render_recent_activity
-from frontend.components.datasets import render_dataset_manager
-from frontend.components.interactive_dashboard import render_interactive_dashboard
-from frontend.components.machine_learning import render_machine_learning
-from frontend.components.notifications import render_notifications
-from frontend.components.recommendations import render_recommendations
-from frontend.components.reports import render_report_center
-from frontend.components.settings import render_settings
-from frontend.utils import api
+from components.auth import render_login, render_logout, render_registration
+from components.ai_chat import render_ai_chat
+from components.ai_insights import render_ai_insights
+from components.analysis import render_analysis
+from components.dashboard import render_metric_grid, render_profile, render_recent_activity
+from components.datasets import render_dataset_manager
+from components.interactive_dashboard import render_interactive_dashboard
+from components.machine_learning import render_machine_learning
+from components.notifications import render_notifications
+from components.recommendations import render_recommendations
+from components.reports import render_report_center
+from components.settings import render_settings
+from utils import api
 
 
 st.set_page_config(page_title="DataVista", page_icon=":bar_chart:", layout="wide")

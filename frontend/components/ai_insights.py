@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import streamlit as st
 
-from frontend.components.ai_typography import inject_ai_typography, render_ai_markdown
-from frontend.utils import api
+from components.ai_typography import inject_ai_typography, render_ai_markdown
+from utils import api
 
 
 def render_ai_insights(token: str) -> None:

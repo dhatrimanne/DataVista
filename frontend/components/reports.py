@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import streamlit as st
 
-from frontend.components.datasets import format_bytes
-from frontend.utils import api
+from components.datasets import format_bytes
+from utils import api
 
 
 def render_report_center(token: str) -> None:

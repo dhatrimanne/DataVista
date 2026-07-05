@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import streamlit as st
 
-from frontend.components.ai_typography import inject_ai_typography, render_ai_markdown, stable_ai_message_key
-from frontend.utils import api
+from components.ai_typography import inject_ai_typography, render_ai_markdown, stable_ai_message_key
+from utils import api
 
 
 def render_ai_chat(token: str) -> None:

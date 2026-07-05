@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import streamlit as st
 
-from frontend.utils import api
+from utils import api
 
 
 def render_settings(token: str) -> None:
