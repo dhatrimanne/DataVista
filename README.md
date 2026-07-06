@@ -14,7 +14,15 @@ Transform raw business data into actionable insights using Artificial Intelligen
 
 ---
 
-> 🚀 **Live Demo:** *Coming Soon*
+> 🚀 **Live Demo:** [Launch DataVista](https://datavista-xfeeq3dke6j3c5wilgqtxn.streamlit.app)
+
+> **Note**
+>
+> The live demo is hosted on free cloud services (Render + Streamlit Community Cloud).
+> The backend currently uses SQLite for simplicity, so user accounts and uploaded datasets may occasionally reset if the backend service restarts.
+>
+> A production deployment can use PostgreSQL or another managed database for persistent storage.
+
 
 > 📈 **End-to-End Business Analytics | Machine Learning | AI Insights | Interactive Dashboards | Executive Reports**
 
