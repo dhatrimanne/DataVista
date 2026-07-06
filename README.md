@@ -16,6 +16,10 @@ Transform raw business data into actionable insights using Artificial Intelligen
 
 > 🚀 **Live Demo:** [Launch DataVista](https://datavista-xfeeq3dke6j3c5wilgqtxn.streamlit.app)
 
+
+> 📈 **End-to-End Business Analytics | Machine Learning | AI Insights | Interactive Dashboards | Executive Reports**
+
+
 > **Note**
 >
 > The live demo is hosted on free cloud services (Render + Streamlit Community Cloud). The backend currently uses SQLite for simplicity, so user accounts and uploaded datasets may occasionally reset if the backend service restarts.
@@ -23,9 +27,6 @@ Transform raw business data into actionable insights using Artificial Intelligen
 > AI-powered features (AI Insights, AI Chat, and AI Report generation) use the Google Gemini API. During periods of high demand, Gemini may temporarily return a service unavailable response. Simply retry the request after a short wait.
 >
 > A production deployment can use PostgreSQL or another managed database for persistent storage and production-grade cloud infrastructure for improved reliability.
-
-
-> 📈 **End-to-End Business Analytics | Machine Learning | AI Insights | Interactive Dashboards | Executive Reports**
 
 ---
 
